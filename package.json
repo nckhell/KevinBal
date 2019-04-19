@@ -1,5 +1,5 @@
 {
-  "name": "KevinBal",
+  "name": "kevinbal",
   "version": "1.0.0",
   "description": "Kevin Bal Kinesitherapie",
   "main": "index.js",
@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/nckhell/KevinBal#readme",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
     "@zeit/next-css": "^1.0.1",
+    "dotenv": "^7.0.0",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
@@ -29,6 +31,9 @@
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "cssnano": "^4.1.10",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-react": "^7.12.4",
     "postcss-easy-import": "^3.0.0",
     "tailwindcss": "^0.7.4"
   }
