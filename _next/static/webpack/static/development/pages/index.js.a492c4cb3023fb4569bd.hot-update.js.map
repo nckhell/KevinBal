@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static/development/pages/index.js.a492c4cb3023fb4569bd.hot-update.js","sources":["webpack:///./pages/index.js"],"sourcesContent":["import Page from '../components/layouts/main'\n\nexport default () => (\n  <Page>\n  </Page>\n)"],"mappings":";;;;;;;;;;;;;;;;AAAA;AAEA;AAAA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AADA;;;;A","sourceRoot":""}
