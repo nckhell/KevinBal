@@ -30,9 +30,9 @@ module.exports = {
     cssnano({
       preset: 'default',
     }),
-    ...process.env.APP_ENV === 'production'
-    ? [purgecss]
-    : [],
+    // ...process.env.APP_ENV === 'production'
+    // ? [purgecss]
+    // : [],
     autoprefixer
   ]
 }

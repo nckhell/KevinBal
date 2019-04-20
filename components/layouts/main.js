@@ -1,4 +1,4 @@
-import { Link } from 'next-prefixed'
+import { Link, prefixURL } from 'next-prefixed'
 import Head from 'next/head'
 
 import '../../static/styles/tailwind.css'
@@ -20,12 +20,12 @@ export default class Page extends React.Component {
           <meta charSet='utf-8' />
           <meta name="robots" content="index, follow" />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-          <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
+          <link rel="shortcut icon" type="image/x-icon" href={prefixURL('/static/favicon.ico')} />
         </Head>
         <header className="border-t-8 border-kevin-green">
             <nav className="pt-8 flex flex-wrap justify-center">
               <div className="w-full flex justify-center">
-                <img src="static/img/full_logo.svg" className="h-32 md:h-48" alt="Kevin Bal Kinesitherapie" />
+                <img src={prefixURL('/static/img/full_logo.svg')} className="h-32 md:h-48" alt="Kevin Bal Kinesitherapie" />
               </div>
               <div className="w-5/6 flex justify-center pt-8 flex-wrap text-xl">
                 <Link href="/">
@@ -66,7 +66,7 @@ export default class Page extends React.Component {
             <ul className="text-sm text-grey-dark list-reset flex items-center">
               <li>
                 <a href="/" className="block mr-4">
-                  <img src="static/img/logo.svg" className="w-8" alt="logo" />
+                  <img src={prefixURL('/static/img/logo.svg')} className="w-8" alt="logo" />
                 </a>
               </li>
               <li>Reepkenslei 45 - 2550 Kontich - 0477 92 72 02</li>
