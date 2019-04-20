@@ -4,10 +4,10 @@
   "description": "Kevin Bal Kinesitherapie",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
     "start": "next start",
     "build:css": "postcss static/styles/tailwind.css -o static/styles/styles.css",
-    "deploy": "npm build:css && next build && next export && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages",
-    "dev": "npm build:css && next"
+    "deploy": "APP_ENV=production next build && APP_ENV=production next export && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,9 @@
     "@fullhuman/postcss-purgecss": "^1.1.0",
     "@zeit/next-css": "^1.0.1",
     "dotenv": "^7.0.0",
+    "google-maps-react": "^2.0.2",
     "next": "^8.1.0",
+    "next-prefixed": "0.0.9",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },

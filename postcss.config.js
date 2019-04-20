@@ -1,4 +1,6 @@
 const tailwindcss = require('tailwindcss')
+const cssnano = require('cssnano')
+const autoprefixer = require('autoprefixer')
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
   // Specify the paths to all of the template files in your project 
@@ -25,9 +27,12 @@ module.exports = {
   plugins: [
     require('postcss-easy-import'),
     tailwindcss('./tailwind.js'),
-    require('autoprefixer'),
+    cssnano({
+      preset: 'default',
+    }),
     ...process.env.APP_ENV === 'production'
-      ? [purgecss]
-      : []
+    ? [purgecss]
+    : [],
+    autoprefixer
   ]
 }
