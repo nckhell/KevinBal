@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/contact.js"],{
 
 /***/ "./components/layouts/main.js":
 /*!************************************!*\
@@ -6554,21 +6554,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Findex.js!./":
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Fcontact.js!./":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Fcontact.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/contact", function() {
+      var page = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/contact.js */ "./pages/contact.js", function() {
+          if(!next.router.components["/contact"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
+          next.router.update("/contact", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -10813,10 +10813,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10825,47 +10825,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layouts_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layouts/main */ "./components/layouts/main.js");
-/* harmony import */ var next_prefixed__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-prefixed */ "./node_modules/next-prefixed/dist/index.js");
-/* harmony import */ var next_prefixed__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_prefixed__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/index.js";
-
+var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/contact.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layouts_main__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    activePath: "contact",
+    title: "Contact",
+    description: "Een afspraak maken bij kinesitherapeut Kevin Bal te Kontich kan telefonisch of online",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "my-16 font-sans container m-auto flex flex-col md:flex-row text-center lg:max-w-xl lg:text-left sm:items-center",
+    className: "container m-auto flex flex-col py-10 max-w-xl text-center px-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-3/5 self-center md:w-1/3 md:container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "shadow-md",
-    src: "static/img/Kevin.png",
-    alt: "Kevin Bal",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full md:w-2/3 flex flex-col justify-center items-start p-8 items-center md:items-start",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -10873,269 +10850,156 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/index.js";
     className: "uppercase tracking-wide text-grey-dark font-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "Kinesitherapeut"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "my-4 font-normal",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Kevin Bal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-justify text-lg leading-normal mb-4 text-grey-darkest",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Afgestudeerd in 2004 als licentiaat in de kinesitherapie. Naast mijn werk in de praktijk ben ik ook werkzaam op de revalidatieafdeling APRA van het AZ Monica Antwerpen."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-justify text-lg leading-normal mb-4 text-grey-darkest",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, "Ik houd me, zowel in de praktijk als in APRA, vooral bezig met orthopedische geneeskunde en Manuele Therapie. Verder specialiseerde ik me in de Scar Academy van het brandwondencentrum in de behandeling van brandwonden en littekens."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-justify text-lg leading-normal mb-4 text-grey-darkest",
+  }, "Een afpsraak maken?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "my-4 font-normal",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "In een verdere zoektocht naar een optimale behandeling verdiepte ik me in het Medical Taping Concept, het Mulligan Concept en Dry Needling. De meest recente bijscholing die ik volgde was de Anatomy Trains opleiding, een verdieping in de myo-fasciale anatomie."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "font-sans text-center py-12 px-4 lg:px-0 bg-kevin-green",
+  }, "Dat kan telefonisch of online."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "border-b w-8 m-auto my-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container flex flex-col md:flex-row bg-white max-w-xl m-auto shadow-md p-10",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full md:w-3/4 text-left flex flex-col justify-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "font-medium",
+  }, "Indien de afspraakmogelijkheden die online worden aangeboden naar uw gevoel te ver in de toekomst liggen en u liever sneller behandeld wordt, kan u mij steeds telefonisch contacteren. We trachten dan in wederzijds overleg een toch zo spoedig als mogelijk een behandelmoment in te.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "font-sans text-center py-12 px-4 lg:px-0 bg-kevin-green",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, "Wilt u graag een afspraak?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-grey-dark mt-2 text-lg leading-normal",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container flex flex-col md:flex-row bg-white max-w-xl m-auto shadow-md md:p-10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, "Dat kan via telefoon of het online afsprakensysteem!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full mt-4 md:mt-0 md:w-1/4 flex justify-start md:justify-center items-center",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container m-auto flex flex-col py-2 max-w-xl text-center px-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-full w-1/2 flex flex-row justify-between md:justify-center items-center md:p-2 md:p-8 items-center md:items-start",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    href: "/contact",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex items-center border-r p-4 w-1/2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    title: "Een afspraak maken",
-    className: "no-underline bg-kevin-green border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-kevin-green hover:border-kevin-green",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, "Een afspraak maken"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "font-sans container max-w-xl m-auto text-center py-20",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-kevin-green pb-2 font-medium",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 25
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "tagline",
-    className: "uppercase tracking-wide font-bold text-grey-dark",
+  }, "Telefonisch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-grey-darkest text-lg leading-normal",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 26
     },
     __self: this
-  }, "Specialisaties"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "mt-2 mb-4 font-medium max-w-sm m-auto",
+  }, "Op het nummer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "tel:0477 92 72 02",
+    className: "no-underine text-kevin-green",
+    title: "0477 92 72 02",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "0477 92 72 02")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex items-center p-4 w-1/2 ",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
-  }, "U kunt bij mij terecht voor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    className: "border-b w-8 m-auto my-6",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "flex flex-wrap justify-center items-start",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-kevin-green pb-2 font-medium",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
+  }, "Online"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-grey-darkest text-lg leading-normal pb-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Let op:"), " duidt de juiste locatie aan (Kevin Bal Kontich)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, "Manuele therapie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.q-top.be/Online-planner/NL/?root=kq35040",
+    target: "_blank",
+    title: "Een online afspraak maken bij Kevin Bal",
+    className: "inline-block no-underline bg-kevin-green border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-kevin-green hover:border-kevin-green",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, "Een specifieke behandelmethode die zich richt naar het opsporen van dysfuncties van het bewegingsapparaat.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "Orthopedische revalidatie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "Gericht op pre- en postoperatieve kinesitherapie en kinesitherapie ter herstel na een trauma")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "Brandwonden en littekenbehandeling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "Brandwonden en littekens vragen een gespecialiseerde aanpak van bij het begin. In samenwerking met de dokter wordt er een persoonlijk behandelschema opgesteld.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, "Medical Taping Concept."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "Ontwikkeld door de Japanse kinesioloog en chiropracticus Dr. Kenzo Kase. Vanuit de kinesiologie zocht hij naar een methode om spieren te behandelen en te be\xEFnvloeden.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, "Mulligan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }, "Met de technieken van Mulligan kunnen, indien hiervoor een juiste indicatie bestaat, gewrichtsklachten zeer functioneel behandeld worden.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, "Dry needling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, "Een relatief nieuwe behandelmethode binnen de klassieke kinesitherapie. Door middel van een speciale techniek worden spieren aangeprikt waarna deze snel en langdurig ontspannen.")))));
+  }, "Online afspraak maken")))))))));
 });
 
 /***/ }),
 
-/***/ 0:
-/*!***********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Findex.js ***!
-  \***********************************************************************************************************************************/
+/***/ 6:
+/*!********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Fcontact.js ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Fcontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Fcontact.js!./");
 
 
 /***/ }),
@@ -11151,5 +11015,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[6,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=contact.js.map
