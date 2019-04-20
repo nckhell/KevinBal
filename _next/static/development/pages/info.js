@@ -136,7 +136,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "static/img/full_logo.svg",
+        src: "/static/img/full_logo.svg",
         className: "h-32 md:h-48",
         alt: "Kevin Bal Kinesitherapie",
         __source: {
@@ -264,7 +264,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "static/img/logo.svg",
+        src: "/static/img/logo.svg",
         className: "w-8",
         alt: "logo",
         __source: {
@@ -10907,7 +10907,7 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/info.js";
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Finfo&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Finfo.js ***!
   \**************************************************************************************************************************************/
@@ -10930,5 +10930,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=info.js.map
