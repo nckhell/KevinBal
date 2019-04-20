@@ -108,7 +108,7 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "shortcut icon",
         type: "image/x-icon",
-        href: "/static/favicon.ico",
+        href: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])('/static/favicon.ico'),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
@@ -136,7 +136,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "/static/img/full_logo.svg",
+        src: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])('/static/img/full_logo.svg'),
         className: "h-32 md:h-48",
         alt: "Kevin Bal Kinesitherapie",
         __source: {
@@ -264,7 +264,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: "/static/img/logo.svg",
+        src: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])('/static/img/logo.svg'),
         className: "w-8",
         alt: "logo",
         __source: {
