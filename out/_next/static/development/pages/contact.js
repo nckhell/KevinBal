@@ -10800,7 +10800,7 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/contact.js";
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Fcontact.js ***!
   \********************************************************************************************************************************************/
@@ -10823,5 +10823,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=contact.js.map
