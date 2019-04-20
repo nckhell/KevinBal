@@ -53,30 +53,48 @@ function (_React$Component) {
           _this$props$activePat = _this$props.activePath,
           activePath = _this$props$activePat === void 0 ? 'home' : _this$props$activePat,
           _this$props$title = _this$props.title,
-          title = _this$props$title === void 0 ? 'Welkom' : _this$props$title;
+          title = _this$props$title === void 0 ? 'Welkom' : _this$props$title,
+          _this$props$descripti = _this$props.description,
+          description = _this$props$descripti === void 0 ? 'Kevin Bal is een kinesitherapeut met een praktijk in Kontich (Reepkenslei). Zijn specialisaties zijn manuele kinesitherapie en orthopedische revalidatie.' : _this$props$descripti;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }, title, " | Kevin Bal Kinesitherapie"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
-        charSet: "utf-8",
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
+        },
+        __self: this
+      }, title, " | Kevin Bal Kinesitherapeut"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "description",
+        content: description,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        charSet: "utf-8",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "robots",
+        content: "index, follow",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
@@ -84,28 +102,37 @@ function (_React$Component) {
         content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 22
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "shortcut icon",
+        type: "image/x-icon",
+        href: "/static/favicon.ico",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("header", {
         className: "border-t-8 border-kevin-green",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 25
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("nav", {
         className: "pt-8 flex flex-wrap justify-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 26
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "w-full flex justify-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -114,104 +141,118 @@ function (_React$Component) {
         alt: "Kevin Bal Kinesitherapie",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 28
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "w-5/6 flex justify-center pt-8 flex-wrap text-xl",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: (activePath == 'home' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 32
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        href: "/info",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: (activePath == 'info' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, "Info")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         href: "/visie",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: (activePath == 'visie' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 42
         },
         __self: this
       }, "Visie")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         href: "/ligging",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 46
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: (activePath == 'ligging' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 47
         },
         __self: this
       }, "Ligging")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: (activePath == 'contact' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 52
         },
         __self: this
       }, "Contact"))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "flex-1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 60
         },
         __self: this
       }, children), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("footer", {
         className: "font-sans bg-grey-lighter text-white py-5 px-4 pin-b",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "mx-auto max-w-xl overflow-hidden flex justify-between items-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
         className: "text-sm text-grey-dark list-reset flex items-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 66
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -219,7 +260,7 @@ function (_React$Component) {
         className: "block mr-4",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 68
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -228,20 +269,20 @@ function (_React$Component) {
         alt: "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 69
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 72
         },
         __self: this
-      }, "Van Putlei 53/12 - 2018 Antwerpen - 03/216.26.24")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "Reepkenslei 45 - 2550 Kontich - 0477 92 72 02")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "inline-block py-2 px-3 text-grey-darker text-xs",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 74
         },
         __self: this
       }, " \xA92019 Kevin Bal Kinesitherapie."))));
@@ -10790,17 +10831,168 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/contact.js";
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layouts_main__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activePath: "contact",
+    title: "Contact",
+    description: "Een afspraak maken bij kinesitherapeut Kevin Bal te Kontich kan telefonisch of online",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, "contact");
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "container m-auto flex flex-col py-10 max-w-xl text-center px-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "tagline",
+    className: "uppercase tracking-wide text-grey-dark font-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Een afpsraak maken?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "my-4 font-normal",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Dat kan telefonisch of online."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "border-b w-8 m-auto my-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Indien de afspraakmogelijkheden die online worden aangeboden naar uw gevoel te ver in de toekomst liggen en u liever sneller behandeld wordt, kan u mij steeds telefonisch contacteren. We trachten dan in wederzijds overleg een toch zo spoedig als mogelijk een behandelmoment in te.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "font-sans text-center py-12 px-4 lg:px-0 bg-kevin-green",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container flex flex-col md:flex-row bg-white max-w-xl m-auto shadow-md md:p-10",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container m-auto flex flex-col py-2 max-w-xl text-center px-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-full w-1/2 flex flex-row justify-between md:justify-center items-center md:p-2 md:p-8 items-center md:items-start",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex items-center border-r p-4 w-1/2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-kevin-green pb-2 font-medium",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Telefonisch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-grey-darkest text-lg leading-normal",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Op het nummer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "tel:0477 92 72 02",
+    className: "no-underine text-kevin-green",
+    title: "0477 92 72 02",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "0477 92 72 02")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex items-center p-4 w-1/2 ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-kevin-green pb-2 font-medium",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "Online"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-grey-darkest text-lg leading-normal pb-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Let op:"), " duidt de juiste locatie aan (Kevin Bal Kontich)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.q-top.be/Online-planner/NL/?root=kq35040",
+    target: "_blank",
+    title: "Een online afspraak maken bij Kevin Bal",
+    className: "inline-block no-underline bg-kevin-green border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-kevin-green hover:border-kevin-green",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "Online afspraak maken")))))))));
 });
 
 /***/ }),
 
-/***/ 0:
+/***/ 5:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Fcontact.js ***!
   \********************************************************************************************************************************************/
@@ -10823,5 +11015,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=contact.js.map
