@@ -5,8 +5,8 @@ const { promisify } = require('util');
 const copyFile = promisify(fs.copyFile);
 const withCSS = require('@zeit/next-css')
 
-const prod = process.env.APP_ENV === 'production'
-const assetPrefix = prod ? '/KevinBal/' : ''
+const ghPages = process.env.APP_ENV === 'gh-pages'
+const assetPrefix = ghPages ? '/KevinBal/' : ''
 
 module.exports = withCSS({
   assetPrefix: assetPrefix,
