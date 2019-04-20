@@ -1,0 +1,14 @@
+@tailwind preflight;
+@tailwind components;
+
+html, body, #__next {
+    @apply h-full;
+}
+
+#__next > div:first-child {
+    @apply flex;
+    @apply flex-col;
+    @apply h-full;
+}
+
+@tailwind utilities;
