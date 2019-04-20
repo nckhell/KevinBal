@@ -53,7 +53,7 @@ function (_React$Component) {
           _this$props$activePat = _this$props.activePath,
           activePath = _this$props$activePat === void 0 ? 'home' : _this$props$activePat,
           _this$props$title = _this$props.title,
-          title = _this$props$title === void 0 ? 'This is the default title' : _this$props$title;
+          title = _this$props$title === void 0 ? 'Welkom' : _this$props$title;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
@@ -72,7 +72,7 @@ function (_React$Component) {
           lineNumber: 17
         },
         __self: this
-      }, title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+      }, title, " | Kevin Bal Kinesitherapie"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         charSet: "utf-8",
         __source: {
           fileName: _jsxFileName,
@@ -10963,7 +10963,7 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/index.js";
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!***********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fnick%2FDocuments%2FGithub%2FKevinBal%2Fpages%2Findex.js ***!
   \***********************************************************************************************************************************/
@@ -10986,5 +10986,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
