@@ -159,6 +159,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        title: "Home",
         className: (activePath == 'home' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
@@ -173,6 +174,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        title: "info",
         className: (activePath == 'info' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
@@ -187,6 +189,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        title: "visie",
         className: (activePath == 'visie' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
@@ -201,6 +204,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        title: "ligging",
         className: (activePath == 'ligging' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
@@ -215,6 +219,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        title: "contact",
         className: (activePath == 'contact' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4",
         __source: {
           fileName: _jsxFileName,
@@ -10964,7 +10969,7 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/index.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    href: "/contact",
+    href: "/contact/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
