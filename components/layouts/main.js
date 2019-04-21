@@ -15,7 +15,7 @@ export default class Page extends React.Component {
     return (
       <div>
         <Head>
-          <title>{ title } | Kevin Bal Kinesitherapeut</title>
+          <title>{ title } | Kevin Bal Kinesitherapeut Kontich</title>
           <meta name="description" content={ description } />
           <meta charSet='utf-8' />
           <meta name="robots" content="index, follow" />
@@ -29,27 +29,27 @@ export default class Page extends React.Component {
               </div>
               <div className="w-5/6 flex justify-center pt-8 flex-wrap text-xl">
                 <Link href="/">
-                  <a className={ (activePath == 'home' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"}>
+                  <a title="Home" className={ (activePath == 'home' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"}>
                   Home
                   </a>
                 </Link>
-                <Link href="/info">
-                  <a className={ (activePath == 'info' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"}>
+                <Link href="/info/">
+                  <a title="info" className={ (activePath == 'info' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"}>
                   Info
                   </a>
                 </Link>
-                <Link href="/visie">
-                  <a className={ (activePath == 'visie' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"}>
+                <Link href="/visie/">
+                  <a title="visie"  className={ (activePath == 'visie' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"}>
                   Visie
                   </a>
                 </Link>
-                <Link href="/ligging">
-                  <a className={ (activePath == 'ligging' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"}>
+                <Link href="/ligging/">
+                  <a title="ligging" className={ (activePath == 'ligging' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12"}>
                   Ligging
                   </a>
                 </Link>
-                <Link href="/contact">
-                  <a className={ (activePath == 'contact' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4"}>
+                <Link href="/contact/">
+                  <a title="contact"  className={ (activePath == 'contact' ? 'underline ' : 'no-underline ' ) + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4"}>
                   Contact
                   </a>
                 </Link>

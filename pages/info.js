@@ -1,4 +1,5 @@
 import Page from '../components/layouts/main'
+import Head from 'next/head';
 
 export default () => (
   <Page
@@ -6,6 +7,9 @@ export default () => (
     title="Info"
     description="Informatie over de kinesitherapiepraktijk van Kevin Bal te Kontich"
     >
+      <Head>
+        <link rel="canonical" href="http://kinebal.be/info/" />
+      </Head>
       <section className="container m-auto flex flex-col py-10 max-w-xl text-center px-6">
             <label htmlFor="tagline" className="uppercase tracking-wide text-grey-dark font-bold">Aandachtspunten</label>
             <h1 className="my-4 font-normal">Informatie</h1>

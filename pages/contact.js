@@ -1,4 +1,5 @@
 import Page from '../components/layouts/main'
+import Head from 'next/head';
 
 export default () => (
   <Page
@@ -6,6 +7,9 @@ export default () => (
     title="Contact"
     description="Een afspraak maken bij kinesitherapeut Kevin Bal te Kontich kan telefonisch of online"
     >
+      <Head>
+        <link rel="canonical" href="http://kinebal.be/contact/" />
+      </Head>
       <section className="container m-auto flex flex-col py-10 max-w-xl text-center px-6">
         <label htmlFor="tagline" className="uppercase tracking-wide text-grey-dark font-bold">
         Een afpsraak maken?

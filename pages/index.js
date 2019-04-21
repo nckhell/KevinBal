@@ -1,8 +1,12 @@
 import Page from '../components/layouts/main'
 import { Link } from 'next-prefixed'
+import Head from 'next/head';
 
 export default () => (
   <Page>
+    <Head>
+      <link rel="canonical" href="http://kinebal.be" />
+    </Head>
       <section className="my-16 font-sans container m-auto flex flex-col md:flex-row text-center lg:max-w-xl lg:text-left sm:items-center">
         <div className="w-3/5 self-center md:w-1/3 md:container"><img className="shadow-md" src="static/img/Kevin.png" alt="Kevin Bal" /></div>
         <div className="w-full md:w-2/3 flex flex-col justify-center items-start p-8 items-center md:items-start">
@@ -20,7 +24,7 @@ export default () => (
             <p className="text-grey-dark mt-2 text-lg leading-normal">Dat kan via telefoon of het online afsprakensysteem!</p>
           </div>
           <div className="w-full mt-4 md:mt-0 md:w-1/4 flex justify-start md:justify-center items-center">
-            <Link href="/contact">
+            <Link href="/contact/">
             <a title="Een afspraak maken" className="no-underline bg-kevin-green border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-kevin-green hover:border-kevin-green">
               Een afspraak maken
             </a>
