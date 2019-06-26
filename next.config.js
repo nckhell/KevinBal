@@ -24,6 +24,8 @@ module.exports = withCSS({
       await copyFile(join(dir, '.nojekyll'), join(outDir, '.nojekyll'));
       await copyFile(join(dir, 'CNAME'), join(outDir, 'CNAME'));
       await copyFile(join(dir, 'robots.txt'), join(outDir, 'robots.txt'));
+      await copyFile(join(dir, 'google097d7d518e578f71.html'), join(outDir, 'google097d7d518e578f71.html'));
+      await copyFile(join(dir, 'sitemap.xml'), join(outDir, 'sitemap.xml'));
       return defaultPathMap;
     }
 })

@@ -24,6 +24,7 @@ export default class Page extends React.Component {
         </Head>
         <header className="border-t-8 border-kevin-green">
             <nav className="pt-8 flex flex-wrap justify-center">
+              <h1 className="hidden">Kevin Bal Kinesitherapie</h1>
               <div className="w-full flex justify-center">
                 <img src={prefixURL('/static/img/full_logo.svg')} className="h-32 md:h-48" alt="Kevin Bal Kinesitherapie" />
               </div>
