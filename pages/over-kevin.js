@@ -12,7 +12,11 @@ export default () => (
     </Head>
     <section className="my-16 font-sans container m-auto flex flex-col md:flex-row text-center lg:max-w-xl lg:text-left sm:items-center">
       <div className="w-3/5 self-center md:w-1/3 md:container">
-        <img className="shadow-md" src="static/img/Kevin.png" alt="Kevin Bal" />
+        <img
+          className="shadow-md"
+          src="/static/img/Kevin.png"
+          alt="Kevin Bal"
+        />
       </div>
       <div className="w-full md:w-2/3 flex flex-col justify-center items-start p-8 items-center md:items-start">
         <label
