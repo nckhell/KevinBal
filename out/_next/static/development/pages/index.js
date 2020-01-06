@@ -51,11 +51,11 @@ function (_React$Component) {
       var _this$props = this.props,
           children = _this$props.children,
           _this$props$activePat = _this$props.activePath,
-          activePath = _this$props$activePat === void 0 ? 'home' : _this$props$activePat,
+          activePath = _this$props$activePat === void 0 ? "home" : _this$props$activePat,
           _this$props$title = _this$props.title,
-          title = _this$props$title === void 0 ? 'Welkom' : _this$props$title,
+          title = _this$props$title === void 0 ? "Welkom" : _this$props$title,
           _this$props$descripti = _this$props.description,
-          description = _this$props$descripti === void 0 ? 'Kevin Bal is een kinesitherapeut met een praktijk in Kontich (Reepkenslei). Zijn specialisaties zijn manuele kinesitherapie en orthopedische revalidatie.' : _this$props$descripti;
+          description = _this$props$descripti === void 0 ? "Kevin Bal is een kinesitherapeut met een praktijk in Kontich (Reepkenslei). Zijn specialisaties zijn manuele kinesitherapie en orthopedische revalidatie." : _this$props$descripti;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
@@ -108,156 +108,163 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "shortcut icon",
         type: "image/x-icon",
-        href: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])('/static/favicon.ico'),
+        href: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])("/static/favicon.ico"),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 26
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("header", {
         className: "border-t-8 border-kevin-green",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("nav", {
         className: "pt-8 flex flex-wrap justify-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 33
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+        className: "hidden",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "Kevin Bal Kinesitherapie"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "w-full flex justify-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])('/static/img/full_logo.svg'),
+        src: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])("/static/img/full_logo.svg"),
         className: "h-32 md:h-48",
         alt: "Kevin Bal Kinesitherapie",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 36
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "w-5/6 flex justify-center pt-8 flex-wrap text-xl",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         title: "Home",
-        className: (activePath == 'home' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
+        className: (activePath == "home" ? "underline " : "no-underline ") + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 44
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
-        href: "/info/",
+        href: "/over-kevin/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        title: "info",
-        className: (activePath == 'info' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
+        title: "Over Kevin",
+        className: (activePath == "over-kevin" ? "underline " : "no-underline ") + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 55
         },
         __self: this
-      }, "Info")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+      }, "Over Kevin")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         href: "/visie/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         title: "visie",
-        className: (activePath == 'visie' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
+        className: (activePath == "visie" ? "underline " : "no-underline ") + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 68
         },
         __self: this
       }, "Visie")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         href: "/ligging/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 78
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         title: "ligging",
-        className: (activePath == 'ligging' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
+        className: (activePath == "ligging" ? "underline " : "no-underline ") + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4 md:mr-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 79
         },
         __self: this
       }, "Ligging")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         href: "/contact/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 89
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         title: "contact",
-        className: (activePath == 'contact' ? 'underline ' : 'no-underline ') + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4",
+        className: (activePath == "contact" ? "underline " : "no-underline ") + "block sm:inline-block sm:mt-0 text-kevin-green hover:underline mr-8 mb-4",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 90
         },
         __self: this
       }, "Contact"))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "flex-1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 104
         },
         __self: this
       }, children), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("footer", {
         className: "font-sans bg-grey-lighter text-white py-5 px-4 pin-b",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 106
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "mx-auto max-w-xl overflow-hidden flex justify-between items-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 107
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
         className: "text-sm text-grey-dark list-reset flex items-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 108
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 109
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -265,32 +272,32 @@ function (_React$Component) {
         className: "block mr-4",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 110
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        src: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])('/static/img/logo.svg'),
+        src: Object(next_prefixed__WEBPACK_IMPORTED_MODULE_6__["prefixURL"])("/static/img/logo.svg"),
         className: "w-8",
         alt: "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 111
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 118
         },
         __self: this
-      }, "Reepkenslei 45 - 2550 Kontich - 0477 92 72 02")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "Reepkenslei 45 - 2550 Kontich - 0468 47 31 90")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "inline-block py-2 px-3 text-grey-darker text-xs",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 120
         },
         __self: this
-      }, " \xA92019 Kevin Bal Kinesitherapie."))));
+      }, " ", "\xA92019 Kevin Bal Kinesitherapie."))));
     }
   }]);
 
@@ -10868,111 +10875,59 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/index.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-3/5 self-center md:w-1/3 md:container",
+    className: "w-full flex justify-center self-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "shadow-md",
-    src: "static/img/Kevin.png",
-    alt: "Kevin Bal",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full md:w-2/3 flex flex-col justify-center items-start p-8 items-center md:items-start",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "tagline",
-    className: "uppercase tracking-wide text-grey-dark font-bold",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "Kinesitherapeut"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "my-4 font-normal",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "Kevin Bal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-justify text-lg leading-normal mb-4 text-grey-darkest",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "Afgestudeerd in 2004 als licentiaat in de kinesitherapie. Naast mijn werk in de praktijk ben ik ook werkzaam op de revalidatieafdeling APRA van het AZ Monica Antwerpen."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-justify text-lg leading-normal mb-4 text-grey-darkest",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Ik houd me, zowel in de praktijk als in APRA, vooral bezig met orthopedische geneeskunde en Manuele Therapie. Verder specialiseerde ik me in de Scar Academy van het brandwondencentrum in de behandeling van brandwonden en littekens."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-justify text-lg leading-normal mb-4 text-grey-darkest",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "In een verdere zoektocht naar een optimale behandeling verdiepte ik me in het Medical Taping Concept, het Mulligan Concept en Dry Needling. De meest recente bijscholing die ik volgde was de Anatomy Trains opleiding, een verdieping in de myo-fasciale anatomie."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "font-sans text-center py-12 px-4 lg:px-0 bg-kevin-green",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container flex flex-col md:flex-row bg-white max-w-xl m-auto shadow-md p-10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "w-full md:w-3/4 text-left flex flex-col justify-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "font-medium",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }, "Wilt u graag een afspraak?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-grey-dark mt-2 text-lg leading-normal",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }, "Dat kan via telefoon of het online afsprakensysteem!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "w-full mt-4 md:mt-0 md:w-1/4 flex justify-start md:justify-center items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_prefixed__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     href: "/contact/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -10980,14 +10935,14 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/index.js";
     className: "no-underline bg-kevin-green border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-kevin-green hover:border-kevin-green",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, "Een afspraak maken"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "font-sans container max-w-xl m-auto text-center py-20",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
@@ -10995,157 +10950,157 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/index.js";
     className: "uppercase tracking-wide font-bold text-grey-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 40
     },
     __self: this
   }, "Specialisaties"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "mt-2 mb-4 font-medium max-w-sm m-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 46
     },
     __self: this
   }, "U kunt bij mij terecht voor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     className: "border-b w-8 m-auto my-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 49
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex flex-wrap justify-center items-start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Manuele therapie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Een specifieke behandelmethode die zich richt naar het opsporen van dysfuncties van het bewegingsapparaat.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, "Orthopedische revalidatie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "Gericht op pre- en postoperatieve kinesitherapie en kinesitherapie ter herstel na een trauma")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
+  }, "Manuele therapie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "leading-normal mb-4 text-grey-dark text-left",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
+  }, "Een specifieke behandelmethode die zich richt naar het opsporen van dysfuncties van het bewegingsapparaat. Via specifieke behandeltechnieken (mobiliserende technieken en gerichte manipulaties) wordt de mobiliteit van gewrichten terug geoptimaliseerd.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "my-4 font-medium",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, "Orthopedische revalidatie"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "leading-normal mb-4 text-grey-dark text-left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, "Gericht op pre- en postoperatieve kinesitherapie en kinesitherapie ter herstel na een trauma.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "my-4 font-medium",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
   }, "Brandwonden en littekenbehandeling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, "Brandwonden en littekens vragen een gespecialiseerde aanpak van bij het begin. In samenwerking met de dokter wordt er een persoonlijk behandelschema opgesteld.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, "Medical Taping Concept."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "Ontwikkeld door de Japanse kinesioloog en chiropracticus Dr. Kenzo Kase. Vanuit de kinesiologie zocht hij naar een methode om spieren te behandelen en te be\xEFnvloeden.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, "Mulligan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, "Met de technieken van Mulligan kunnen, indien hiervoor een juiste indicatie bestaat, gewrichtsklachten zeer functioneel behandeld worden.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "my-4 font-medium",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, "Dry needling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "leading-normal mb-4 text-grey-dark",
+    className: "leading-normal mb-4 text-grey-dark text-left",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
     },
     __self: this
-  }, "Een relatief nieuwe behandelmethode binnen de klassieke kinesitherapie. Door middel van een speciale techniek worden spieren aangeprikt waarna deze snel en langdurig ontspannen.")))));
+  }, "Door middel van o.a. posturale rekkingen, manuele defibrosering en indien nodig depressotherapie wordt het littekenweefsel soepeler gemaakt. Functionaliteit van het bewegingsstelsel blijft hier primeren.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "my-4 font-medium",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "Mulligan Concept."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "leading-normal mb-4 text-grey-dark text-left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, "Het Mulligan Concept is een manuele mobilisatietechniek voor gewrichten. Met de techniek proberen we op een pijnloze manier het natuurlijke bewegingspatroon van het gewricht te herstellen. Specifiek voor Mulligan is de actieve correctie.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "my-4 font-medium",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "Myofasciale therapie - Dry Needling"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "leading-normal mb-4 text-grey-dark text-left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "Een methode om myofasciale klachten door middel van een droge naald (geen medicatie) spieren aan te prikken op specifieke triggerpunten ( lokaal pijnpunt in een spier, vaak met uitstraling). Het resulteert vaak in het afnemen van de lokale spierspanning met pijnvermindering en verbetering van de mobiliteit tot gevolg.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-full sm:w-1/2 md:w-1/3 flex flex-col items-center justify-center p-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "my-4 font-medium",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "Myofasciale therapie \u2013 IASTM (Ergon)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "leading-normal mb-4 text-grey-dark text-left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, "Met behulp van speciaal ontworpen klinische instrumenten worden het littekenweefsel en fasciale verklevingen in zachte weefsels behandeld. Het is gebaseerd op de theorie van myofasciale meridianen van Thomas Myers.")))));
 });
 
 /***/ }),
