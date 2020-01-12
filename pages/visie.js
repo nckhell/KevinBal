@@ -15,7 +15,7 @@ export default () => (
         htmlFor="tagline"
         className="uppercase tracking-wide text-grey-dark font-bold"
       >
-        Mijn manier van werken
+        Manier van werken
       </label>
       <h1 className="my-4 font-normal">Visie</h1>
       <hr className="border-b w-8 m-auto my-6" />
