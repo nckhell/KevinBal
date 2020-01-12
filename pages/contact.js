@@ -23,8 +23,7 @@ export default () => (
         Indien de afspraakmogelijkheden die online worden aangeboden naar uw
         gevoel te ver in de toekomst liggen en u liever sneller behandeld wordt,
         kan u mij steeds telefonisch contacteren. We trachten dan in wederzijds
-        overleg een toch zo spoedig als mogelijk een behandelmoment in te
-        plannen.
+        overleg zo spoedig als mogelijk een behandelmoment in te plannen.
       </p>
     </section>
     <div className="font-sans text-center py-12 px-4 lg:px-0 bg-kevin-green">

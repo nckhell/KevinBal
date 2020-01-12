@@ -28,7 +28,7 @@ export default () => (
               alt="Kevin Bal"
             />
           </div>
-          <div className="w-full md:w-2/3 flex flex-col justify-center items-start p-8 items-center md:items-start">
+          <div className="w-full md:w-2/3 flex flex-col justify-center items-start px-8 items-center md:items-start">
             <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
               Kevin Bal is afgestudeerd in 2004 als licentiaat in de
               kinesitherapie. Meteen startte hij samen met Sven Meiresone de
