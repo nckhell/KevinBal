@@ -29,7 +29,7 @@ export default () => (
             />
           </div>
           <div className="w-full md:w-2/3 flex flex-col justify-center items-start p-8 items-center md:items-start">
-            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest">
+            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
               Kevin Bal is afgestudeerd in 2004 als licentiaat in de
               kinesitherapie. Meteen startte hij samen met Sven Meiresone de
               groepspraktijk Kine Groep Zuid op in Antwerpen. Tot op heden is
@@ -39,23 +39,23 @@ export default () => (
               locaties houdt hij zich vooral bezig met orthopedische geneeskunde
               en Manuele Therapie.
             </p>
-            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest">
+            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
               Verder specialiseerde hij zich in de Scar Academy van het
               brandwondencentrum in de behandeling van brandwonden en littekens.
               De vaardigheden van de manuele lymfedrainage vergaarde hij aan de
               Hogeschool Universiteit Brussel.
             </p>
-            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest">
+            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
               Voor de opleidingen Dry Needling, Mulligan Concept en Medical
               Taping Concept werd hij gedoceerd door onze noorderburen.
             </p>
-            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest">
+            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
               De laatste jaren verdiepte hij zich verder in de myofasciale
               anatomie en de behandelmodaliteiten daarvan. Hiervoor volgde hij
               de Anatomy Trains opleiding en past hij de Ergon soft Tissue
               Technique toe.
             </p>
-            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest">
+            <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
               Dit, samen met alle andere jaarlijkse kortere peer reviews,
               lezingen en symposia, vormen een brede basis om een kwalitatieve
               en onderbouwde therapie aan te bieden.
