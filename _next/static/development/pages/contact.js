@@ -11000,7 +11000,7 @@ var _jsxFileName = "/Users/nick/Documents/Github/KevinBal/pages/contact.js";
       lineNumber: 55
     },
     __self: this
-  }, "Let op:"), " duidt de juiste locatie aan (Kevin Bal Kontich)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Let op:"), " duid de juiste locatie aan (Kevin Bal Kontich)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58
