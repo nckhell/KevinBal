@@ -1,3 +1,4 @@
+import React from "react";
 import Page from "../components/layouts/main";
 import { Link } from "next-prefixed";
 import Head from "next/head";

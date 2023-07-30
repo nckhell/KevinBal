@@ -1,7 +1,8 @@
+import React from "react";
 import { Link, prefixURL } from "next-prefixed";
 import Head from "next/head";
 
-import "../../static/styles/tailwind.css";
+import "../../static/styles/globals.css";
 
 export default class Page extends React.Component {
   render() {
@@ -9,7 +10,7 @@ export default class Page extends React.Component {
       children,
       activePath = "home",
       title = "Welkom",
-      description = "Kevin Bal is een kinesitherapeut met een praktijk in Kontich (Reepkenslei). Zijn specialisaties zijn manuele kinesitherapie en orthopedische revalidatie."
+      description = "Kevin Bal is een kinesitherapeut met een praktijk in Kontich (Reepkenslei). Zijn specialisaties zijn manuele kinesitherapie en orthopedische revalidatie.",
     } = this.props;
 
     return (

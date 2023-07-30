@@ -1,3 +1,4 @@
+import React from "react";
 import Page from "../components/layouts/main";
 import Head from "next/head";
 
@@ -51,8 +52,7 @@ export default () => (
               <div>
                 <h2 className="text-kevin-green pb-2 font-medium">Online</h2>
                 <p className="text-grey-darkest text-lg leading-normal pb-4">
-                  <b>Let op:</b> duid de juiste locatie aan (Kevin Bal
-                  Kontich).
+                  <b>Let op:</b> duid de juiste locatie aan (Kevin Bal Kontich).
                 </p>
                 <div>
                   <a

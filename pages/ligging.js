@@ -1,9 +1,10 @@
+import React from "react";
 import Page from "../components/layouts/main";
 import Map from "../components/maps/map";
 import Head from "next/head";
 
 const mapStyle = {
-  height: "450px"
+  height: "450px",
 };
 
 export default () => (
