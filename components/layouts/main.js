@@ -118,7 +118,7 @@ export default class Page extends React.Component {
             </ul>
             <p className="inline-block py-2 px-3 text-grey-darker text-xs">
               {" "}
-              ©2019 Kevin Bal Kinesitherapie.
+              ©2025 Kevin Bal Kinesitherapie.
             </p>
           </div>
         </footer>

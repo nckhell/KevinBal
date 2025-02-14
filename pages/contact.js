@@ -30,12 +30,14 @@ export default () => (
       </p>
     </section>
     <div className="font-sans text-center py-12 px-4 lg:px-0 bg-[#8bb79b]">
-      <div className="container flex flex-col md:flex-row bg-white max-w-xl m-auto shadow-md md:p-10">
-        <div className="container m-auto flex flex-col py-2 max-w-xl text-center px-6">
-          <div className="w-full w-1/2 flex flex-row justify-between md:justify-center items-center md:p-2 md:p-8 items-center md:items-start">
+      <div className="container flex flex-col md:flex-row bg-white max-w-3xl m-auto shadow-md md:p-10">
+        <div className="container m-auto flex flex-col text-center">
+          <div className="flex flex-row justify-between md:justify-center items-center md:items-start">
             <div className="flex items-center border-r p-4 w-1/2">
               <div>
-                <h2 className="text-[#8bb79b] pb-2 font-medium">Telefonisch</h2>
+                <h2 className="text-[#8bb79b] pb-2 font-medium text-2xl">
+                  Telefonisch
+                </h2>
                 <p className="text-grey-darkest text-lg leading-normal">
                   Op het nummer{" "}
                   <a
@@ -50,7 +52,9 @@ export default () => (
             </div>
             <div className="flex items-center p-4 w-1/2 ">
               <div>
-                <h2 className="text-[#8bb79b] pb-2 font-medium">Online</h2>
+                <h2 className="text-[#8bb79b] pb-2 font-medium text-2xl">
+                  Online
+                </h2>
                 <p className="text-grey-darkest text-lg leading-normal pb-4">
                   <b>Let op:</b> duid de juiste locatie aan (Kevin Bal Kontich).
                 </p>
