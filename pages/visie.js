@@ -9,24 +9,24 @@ export default () => (
     description="Kinesitherapeut Kevin Bal geeft je graag wat meer inzicht over zijn visie en manier van werken"
   >
     <Head>
-      <link rel="canonical" href="http://kinebal.be/visie/" />
+      <link legacyBehavior rel="canonical" href="http://kinebal.be/visie/" />
     </Head>
-    <section className="container m-auto flex flex-col py-10 max-w-xl text-center px-6">
+    <section className="container m-auto flex flex-col py-10 max-w-3xl text-center px-6">
       <label
         htmlFor="tagline"
-        className="uppercase tracking-wide text-grey-dark font-bold"
+        className="uppercase tracking-wide text-grey-dark font-bold text-3xl"
       >
         Manier van werken
       </label>
-      <h1 className="my-4 font-normal">Visie</h1>
+      <h1 className="my-4 font-normal text-2xl">Visie</h1>
       <hr className="border-b w-8 m-auto my-6" />
-      <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
+      <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 lg m-auto">
         Als echte Kontichnaar was het altijd zijn wens om in zijn eigen gemeente
         aan de slag te gaan als kinesitherapeut. Na 15 jaar ervaring te hebben
         opgedaan in zijn praktijk in Antwerpen en in het revalidatiecentrum APRA
         was de tijd rijp om ook in Kontich een praktijk op te starten.
       </p>
-      <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
+      <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 m-auto">
         Zeker in deze setting wil hij de nadruk leggen op een individuele en
         manuele aanpak. Indien de aard van de aandoening dit vereist zal dit
         aangevuld worden met actieve oefentherapie afgestemd op patiënt en
@@ -41,7 +41,7 @@ export default () => (
         verantwoordelijkheid. Alle oefeningen en adviezen voor thuis zullen dan
         ook nageleefd moeten worden om het gezamenlijk doel te bereiken.{" "}
       </p>
-      <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
+      <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 m-auto">
         Alle behandelingen gebeuren na afspraak en omvatten een gemiddelde duur
         van 30 minuten. Hij doet steeds zijn uiterste best om u niet te lang te
         laten wachten en voor iedereen de nodige tijd te voorzien. Het wordt dan

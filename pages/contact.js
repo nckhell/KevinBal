@@ -9,16 +9,18 @@ export default () => (
     description="Een afspraak maken bij kinesitherapeut Kevin Bal te Kontich kan telefonisch of online"
   >
     <Head>
-      <link rel="canonical" href="http://kinebal.be/contact/" />
+      <link legacyBehavior rel="canonical" href="http://kinebal.be/contact/" />
     </Head>
     <section className="container m-auto flex flex-col py-10 max-w-xl text-center px-6">
       <label
         htmlFor="tagline"
-        className="uppercase tracking-wide text-grey-dark font-bold"
+        className="uppercase tracking-wide text-grey-dark font-bold text-3xl"
       >
         Een afpsraak maken?
       </label>
-      <h1 className="my-4 font-normal">Dat kan telefonisch of online.</h1>
+      <h1 className="my-4 font-normal text-2xl">
+        Dat kan telefonisch of online.
+      </h1>
       <hr className="border-b w-8 m-auto my-6" />
       <p className="text-justify text-lg leading-normal mb-4 text-grey-darkest mt-1 lg:mt-4 max-w-lg m-auto">
         Indien de afspraakmogelijkheden die online worden aangeboden naar uw
@@ -27,20 +29,18 @@ export default () => (
         overleg zo spoedig als mogelijk een behandelmoment in te plannen.
       </p>
     </section>
-    <div className="font-sans text-center py-12 px-4 lg:px-0 bg-kevin-green">
+    <div className="font-sans text-center py-12 px-4 lg:px-0 bg-[#8bb79b]">
       <div className="container flex flex-col md:flex-row bg-white max-w-xl m-auto shadow-md md:p-10">
         <div className="container m-auto flex flex-col py-2 max-w-xl text-center px-6">
           <div className="w-full w-1/2 flex flex-row justify-between md:justify-center items-center md:p-2 md:p-8 items-center md:items-start">
             <div className="flex items-center border-r p-4 w-1/2">
               <div>
-                <h2 className="text-kevin-green pb-2 font-medium">
-                  Telefonisch
-                </h2>
+                <h2 className="text-[#8bb79b] pb-2 font-medium">Telefonisch</h2>
                 <p className="text-grey-darkest text-lg leading-normal">
                   Op het nummer{" "}
                   <a
                     href="tel:0468473190"
-                    className="no-underine text-kevin-green"
+                    className="no-underine text-[#8bb79b]"
                     title="0468 47 31 90"
                   >
                     0468 47 31 90
@@ -50,7 +50,7 @@ export default () => (
             </div>
             <div className="flex items-center p-4 w-1/2 ">
               <div>
-                <h2 className="text-kevin-green pb-2 font-medium">Online</h2>
+                <h2 className="text-[#8bb79b] pb-2 font-medium">Online</h2>
                 <p className="text-grey-darkest text-lg leading-normal pb-4">
                   <b>Let op:</b> duid de juiste locatie aan (Kevin Bal Kontich).
                 </p>
@@ -59,7 +59,7 @@ export default () => (
                     href="https://www.q-top.be/online-planner-v2/NL/?root=kq35040"
                     target="_blank"
                     title="Een online afspraak maken bij Kevin Bal"
-                    className="inline-block no-underline bg-kevin-green border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-kevin-green hover:border-kevin-green"
+                    className="inline-block no-underline bg-[#8bb79b] border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-[#8bb79b] hover:border-[#8bb79b]"
                   >
                     Online afspraak maken
                   </a>

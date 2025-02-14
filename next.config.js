@@ -3,17 +3,16 @@ const fs = require("fs");
 const { join } = require("path");
 const { promisify } = require("util");
 const copyFile = promisify(fs.copyFile);
-const withCSS = require("@zeit/next-css");
 
 const ghPages = process.env.APP_ENV === "gh-pages";
 const assetPrefix = ghPages ? "/KevinBal/" : "";
 
-module.exports = withCSS({
+module.exports = {
   assetPrefix: assetPrefix,
   publicRuntimeConfig: {
-    assetPrefix
+    assetPrefix,
   },
-  exportPathMap: async function(
+  exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }
   ) {
@@ -31,5 +30,5 @@ module.exports = withCSS({
     await copyFile(join(dir, "sitemap.xml"), join(outDir, "sitemap.xml"));
     await copyFile(join(dir, ".htaccess"), join(outDir, ".htaccess"));
     return defaultPathMap;
-  }
-});
+  },
+};

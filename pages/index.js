@@ -6,19 +6,19 @@ import Head from "next/head";
 export default () => (
   <Page>
     <Head>
-      <link rel="canonical" href="http://kinebal.be" />
+      <link legacyBehavior rel="canonical" href="http://kinebal.be" />
     </Head>
-    <section className="my-16 font-sans container m-auto flex flex-col md:flex-row text-center lg:max-w-xl lg:text-left sm:items-center">
+    <section className="my-16 font-sans container m-auto flex flex-col md:flex-row text-center lg:max-w-2xl lg:text-left sm:items-center">
       <div className="w-full flex justify-center self-center">
         {/* <img
           className="shadow-md max-w-xs"
-          src="static/img/Kevin.png"
+          src="/img/Kevin.png"
           alt="Kevin Bal"
         /> */}
       </div>
     </section>
-    <section className="font-sans text-center py-12 px-4 lg:px-0 bg-kevin-green">
-      <div className="container flex flex-col md:flex-row bg-white max-w-xl m-auto shadow-md p-10">
+    <section className="font-sans text-center py-12 px-4 lg:px-0 bg-[#8bb79b]">
+      <div className="container flex flex-col md:flex-row bg-white max-w-3xl m-auto shadow-md p-10">
         <div className="w-full md:w-3/4 text-left flex flex-col justify-center">
           <h2 className="font-medium">Wilt u graag een afspraak?</h2>
           <p className="text-grey-dark mt-2 text-lg leading-normal">
@@ -26,10 +26,10 @@ export default () => (
           </p>
         </div>
         <div className="w-full mt-4 md:mt-0 md:w-1/4 flex justify-start md:justify-center items-center">
-          <Link href="/contact/">
+          <Link legacyBehavior href="/contact/">
             <a
               title="Een afspraak maken"
-              className="no-underline bg-kevin-green border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-kevin-green hover:border-kevin-green"
+              className="no-underline bg-[#8bb79b] border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-[#8bb79b] hover:border-[#8bb79b]"
             >
               Een afspraak maken
             </a>
@@ -37,14 +37,14 @@ export default () => (
         </div>
       </div>
     </section>
-    <section className="font-sans container max-w-xl m-auto text-center py-20">
+    <section className="font-sans container max-w-4xl m-auto text-center py-20">
       <label
         htmlFor="tagline"
-        className="uppercase tracking-wide font-bold text-grey-dark"
+        className="uppercase tracking-wide font-bold text-grey-dark text-3xl"
       >
         Specialisaties
       </label>
-      <h1 className="mt-2 mb-4 font-medium max-w-sm m-auto">
+      <h1 className="mt-2 mb-4 font-medium max-w-sm m-auto text-2xl">
         U kunt bij mij terecht voor
       </h1>
       <hr className="border-b w-8 m-auto my-6" />
