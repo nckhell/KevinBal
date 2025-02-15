@@ -60,7 +60,7 @@ export default () => (
                 </p>
                 <div>
                   <a
-                    href="https://www.q-top.be/online-planner-v2/NL/?root=kq35040"
+                    href="http://www.q-top.be/Online-planner/NL/?root=kq35040"
                     target="_blank"
                     title="Een online afspraak maken bij Kevin Bal"
                     className="inline-block no-underline bg-[#8bb79b] border border-transparent shadow font-semibold py-3 px-5 text-white hover:bg-transparent hover:text-[#8bb79b] hover:border-[#8bb79b]"
